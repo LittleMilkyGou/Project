@@ -1,0 +1,552 @@
+header {
+  height: 1.75rem;
+  background-size: 100% 100%;
+}
+header .nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  font-weight: bold;
+  border: 1px solid #e7e7e7;
+  background-color: #f3f3f3;
+}
+header .nav ul .sign_in {
+  float: right;
+}
+header .nav ul li {
+  float: left;
+}
+header .nav ul li a {
+  display: block;
+  color: #684666;
+  text-align: center;
+  padding: 0.7rem 0.7rem;
+  text-decoration: none;
+}
+header .nav ul li :hover {
+  background-color: #684666;
+  color: #f3f3f3;
+}
+header .nav ul li .subnav {
+  display: none;
+  position: relative;
+  background-color: #f9f9f9;
+  z-index: 9999;
+}
+header .nav ul li .subnav a {
+  color: black;
+  padding: 0.15rem 0.2rem;
+  text-decoration: none;
+  display: block;
+}
+header .nav ul li:hover .subnav {
+  display: block;
+}
+.mainbox {
+  position: relative;
+  height: 40rem;
+}
+.mainbox .container {
+  position: relative;
+  height: 42.5rem;
+  padding-top: 1.25rem;
+  margin-top: 1.25rem;
+  width: 100%;
+  margin-left: 0%;
+  margin-right: 0%;
+  background-image: url(../images/background.jpg);
+  background-size:cover;
+  background-repeat: no-repeat;
+}
+.mainbox .container p {
+  font-size: 4.875rem;
+  margin: 0px;
+  line-height: 36rem;
+  text-align: center;
+  color: #ac485d;
+  font-weight: 800;
+}
+.data_container {
+  position: relative;
+  width: 80rem;
+  height: 6rem;
+  padding-top: 1.25rem;
+  display: block;
+  margin: 4rem auto;
+  border: 0.1px solid;
+  border-color: #ccc;
+  background-color: #faf8fc;
+}
+.data_container h1 {
+  font-size: 1.5rem;
+  margin-top: 0%;
+  text-align: center;
+  color: #684666;
+}
+.data_container ul li {
+  float: left;
+  height: 3rem;
+}
+.data_container ul li input {
+  height: 1rem;
+}
+.data_container ul li select {
+  height: 1rem;
+}
+.data_container ul li label {
+  font-size: 1rem;
+  display: inline-block;
+  width: 8rem;
+  text-align: right;
+  color: #684666;
+  font-weight: bold;
+}
+.data_container ul li .submit input {
+  font-size: 1rem;
+  display: inline-block;
+  width: 10rem;
+  height: 1.5rem;
+  margin-left: 4rem;
+  background-color: #684666;
+  color: #f9f9f9;
+}
+.footer {
+  position: relative;
+  top: 5%;
+  bottom: 5%;
+  margin: 4rem auto;
+  height: 8.5rem;
+  float: center;
+  border: 0.1px solid;
+  border-color: #ccc;
+  background-color: #faf8fc;
+}
+.footer .contact {
+  width: 20rem;
+  height: 8.5rem;
+  position: relative;
+  float: left;
+  list-style-type: none;
+  font-weight:bold;
+  left: 25%;
+}
+.footer .contact h1 {
+  font-size: 1.5rem;
+  margin-top: 0%;
+  text-align: left;
+  
+  color: #925e8f;
+}
+.footer .contact li {
+  height: 2rem;
+}
+.footer .opening {
+  width: 20rem;
+  height: 8.5rem;
+  position: relative;
+  float: right;
+  right: 25%;
+  font-weight:bold;
+  list-style-type: none;
+}
+.footer h1 {
+  font-size: 1.5rem;
+  margin-top: 0%;
+  text-align: left;
+  color: #925e8f;
+}
+.book_container {
+  height: 62rem;
+}
+.book_container .book_maindiv ul {
+  list-style-type: none;
+  width: 80rem;
+  display: block;
+  margin: 1rem auto;
+}
+.book_container .book_maindiv ul li {
+  border: 0.1px solid;
+  border-color: #ccc;
+  background-color: #faf8fc;
+  width: 23.2rem;
+  height: 29rem;
+  float: left;
+  margin-right: 1.5rem;
+  margin-top: 1.5rem;
+}
+.book_container .book_maindiv ul li .room_intro {
+  height: 10rem;
+  position: relative;
+}
+.book_container .book_maindiv ul li .room_intro h1 {
+  font-size: 1.5rem;
+  margin-top: 0%;
+  text-align: center;
+  color: #684666;
+}
+.book_container .book_maindiv ul li .room_intro h2 {
+  font-size: 1.5rem;
+  margin-top: 0%;
+  text-align: center;
+  color: #684666;
+}
+.book_container .book_maindiv ul li .room_intro input {
+  font-size: 2rem;
+  display: inline-block;
+  width: 15rem;
+  height: 3rem;
+  margin-left: 4rem;
+  background-color: #684666;
+  color: #f9f9f9;
+}
+.registerarea {
+  height: 322px;
+  border: 3px solid #684666;
+  margin-top: 3.75rem;
+  margin-left: 31.25rem;
+  width: 500px; 
+}
+
+.registerarea h3 {
+  height: 42px;
+  border-bottom: 1px solid #684666;
+  background-color: #684666;
+  line-height: 42px;
+  padding: 0 10px;
+  font-size: 18px;
+  font-weight: 400;
+  color: seashell;
+}
+.registerarea h3 .login {
+  float: right;
+  font-size: 14px;
+}
+.registerarea h3 .login a {
+  color: #b38686;
+}
+.registerarea .reg_form {
+  width: 50rem;
+  margin: 0 auto;
+}
+.registerarea .reg_form ul li {
+  margin-bottom: 20px;
+  list-style: none;
+}
+.registerarea .reg_form ul li label {
+  display: inline-block;
+  width: 88px;
+  text-align: right;
+}
+.registerarea .reg_form ul li .inp {
+  width: 242px;
+  height: 37px;
+  border: 1px solid #684666;
+}
+.registerarea .reg_form ul li .btn {
+  width: 12.5rem;
+  height: 34px;
+  background-color: #684666;
+  font-size: 14px;
+  color: #fff;
+  margin: 1.875rem 0 0 6.25rem;
+}
+
+
+
+
+
+.messagearea {
+  height: 322px;
+  
+  margin-top: 3.75rem;
+  margin-left: 31.25rem;
+  width: 500px; 
+}
+
+.messagearea h3 {
+  height: 42px;
+  border-bottom: 1px solid #684666;
+  background-color: #684666;
+  line-height: 42px;
+  padding: 0 10px;
+  font-size: 18px;
+  font-weight: 400;
+  color: seashell;
+}
+.messagearea h3 .login {
+  float: right;
+  font-size: 14px;
+}
+.messagearea h3 .login a {
+  color: #b38686;
+}
+.messagearea .reg_form {
+  width: 50rem;
+  margin: 0 auto;
+}
+.messagearea .reg_form ul li {
+  margin-bottom: 20px;
+  list-style: none;
+}
+.messagearea .reg_form ul li label {
+  display: inline-block;
+  width: 88px;
+  text-align: right;
+}
+.messagearea .reg_form ul li .input {
+  width: 242px;
+  height: 37px;
+  border: 1px solid #643b8a;
+}
+.messagearea .reg_form ul li .message{
+  width: 242px;
+  height: 200px;
+  border: 1px solid #643b8a;
+}
+.messagearea .reg_form ul li .btn {
+  width: 12.5rem;
+  height: 34px;
+  background-color: #643b8a;
+  font-size: 14px;
+  color: #fff;
+  margin: 1.875rem 0 0 6.25rem;
+}
+
+.about_us_header {
+  height: 3rem;
+}
+.about_us_header h1 {
+  font-size: 2.5rem;
+  margin-top: 3%;
+  text-align: center;
+  color: #684666;
+}
+.figures {
+  height: 32rem;
+}
+.figures .figure {
+  height: 26rem;
+  width: 70rem;
+  margin: 0 auto;
+  overflow: hidden;
+  position: relative;
+  top: 4rem;
+}
+.figures .figure .slider {
+  margin-top: 0px;
+}
+.figures .figure .slider img {
+  width: 100%;
+}
+
+
+.figures .figure ul {
+  list-style: none;
+}
+.overview {
+  height: 50rem;
+}
+.overview .profile-right {
+  position: relative;
+  float: left;
+  top: 20%;
+  width: 600px;
+  height: 400px;
+  left: 150px;
+}
+.overview .profile-right .p-leader {
+  font-size: 36px;
+  text-align: center;
+  font-weight: 20;
+  color: dimgrey;
+  font-family: 'Open Sans', sans-serif;
+  margin: 0px;
+}
+.overview .profile-right .p-content {
+  font-size: 24px;
+}
+.overview .profile-left {
+  position: relative;
+  float: left;
+  top: 20%;
+  width: 600px;
+  height: 400px;
+  left: 250px;
+}
+.h2-container {
+  width: 1500px;
+  height: 54px;
+  position: relative;
+  top: 10px;
+  padding-top: 10px;
+  margin-bottom: 0px;
+}
+.h2-container h2 {
+  font-size: 54px;
+  text-align: center;
+  font-weight: 300;
+  color: #222222;
+  font-family: 'Open Sans', sans-serif;
+  margin-bottom: 0px;
+}
+.h2-container .h2-p {
+  position: relative;
+  font-size: 20px;
+  text-align: center;
+  font-weight: 20;
+  color: #868686;
+  font-family: 'Open Sans', sans-serif;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.report {
+  height: 10rem;
+}
+
+.select_container {
+  height: 35rem;
+}
+.select_container .select_maindiv ul {
+  list-style-type: none;
+  width: 80rem;
+  display: block;
+  margin: 1rem auto;
+}
+.select_container .select_maindiv ul li {
+  border: 0.1px solid;
+  border-color: #ccc;
+  background-color: #faf8fc;
+  width: 23.2rem;
+  height: 29rem;
+  float: left;
+  margin-right: 1.5rem;
+  margin-top: 1.5rem;
+}
+.select_container .select_maindiv ul li .img {
+  height: 16rem;
+  margin-bottom: 8%;
+}
+.select_container .select_maindiv ul li .img img {
+  width: 100%;
+  height: 100%;
+}
+.select_container .select_maindiv ul li .select_intro {
+  height: 10rem;
+  position: relative;
+}
+.select_container .select_maindiv ul li .select_intro h1 {
+  font-size: 1.5rem;
+  margin-top: 0%;
+  text-align: center;
+  color: #684666;
+}
+.select_container .select_maindiv ul li .select_intro h2 {
+  font-size: 1rem;
+  margin-top: 0%;
+  text-align: center;
+  color: #684666;
+}
+.select_container .select_maindiv ul li .select_intro input {
+  font-size: 2rem;
+  display: inline-block;
+  width: 15rem;
+  height: 3rem;
+  margin-left: 4rem;
+  background-color: #684666;
+  color: #f9f9f9;
+}
+.activity_header {
+  height: 5rem;
+}
+.activity_header h2 {
+  font-size: 3rem;
+  margin-top: 3%;
+  text-align: center;
+  color: #684666;
+  margin-bottom: 0;
+}
+.activity_header p {
+  font-size: 1.5rem;
+  margin-top: 0%;
+  text-align: center;
+  color: #684666;
+}
+.activity_box {
+  height: 45rem;
+  position: relative;
+  
+}
+.activity_box .activity-right {
+  position: relative;
+  font-size: 50px;
+  float: left;
+  top: 50px;
+  width: 450px;
+  height: 200px;
+  left: 130px;
+}
+.activity_box .activity-right .p-leader {
+  font-size: 0px;
+  text-align: center;
+  font-weight: 20;
+  color: dimgrey;
+  font-family: 'Open Sans', sans-serif;
+  margin: 0px;
+}
+.activity_box .activity-right .p-content {
+  font-size: 24px;
+  font-size: 35px;
+}
+.activity_box .activity-left {
+  position: relative;
+  float: left;
+  font-size: 100px;
+  top: 50px;
+  width: 400px;
+  height: 200px;
+  left: 270px;
+}
+.policy_container {
+  width: 45em;
+  height: 150rem;
+  margin-top: 8%;
+}
+.policy_container .policy_maindiv_1 {
+  width: 80rem;
+  height: 100rem;
+  float: left;
+  margin-left: 15%;
+  background-color: white;
+}
+.policy_container .policy_maindiv_1 p {
+  font-size: 2rem;
+  margin-top: 3%;
+  text-align: left;
+  color: black;
+}
+.policy_body p {
+  font-size: 2.8rem;
+  margin-top: 3%;
+  text-align: center;
+  color: #684666;
+}
+.policy_header {
+  width: 1500px;
+  height: 54px;
+  position: relative;
+  top: 10px;
+  padding-top: 10px;
+  margin-bottom: 0px;
+  font-weight: bold;
+}
+.policy_header h2 {
+  font-size: 54px;
+  text-align: center;
+  font-weight: 300;
+  color: #222222;
+  font-family: 'Open Sans', sans-serif;
+  margin-bottom: 0px;
+  font-weight: bold;
+}
+

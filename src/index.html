@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WallStreet Resort</title>
+    <link  rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!--navigation-->
+    <header>
+        <div class="nav">
+            <ul>
+                <li><a class="active" href="./index.html">Home</a></li>
+                <li><a href="./room.html">Room</a></li>
+                <li><a href="about_us.html">About us</a>
+                    <div class="subnav">
+                        <a href="./overview.html">Overview</a>
+                        <a href="./report.html">Report</a>
+                    </div>
+                </li>
+                <li><a href="./activity.html">Activity</a>
+                    <div class="subnav">
+                        <a href="./activity_game.html">Game</a>
+                        <a href="./experts.html">Chat</a>
+                        <a href="./activity_bet.html">Bet</a>
+                    </div>
+                </li>
+                <li><a href="./policy.html">Policy</a></li>
+                <li><a href="./experts.html">Experts</a></li>
+                <li class="sign_in"><a href="./sign_in.html">Sign in</a></li>
+            </ul>
+        </div>
+    </header>
+    <!--mainbox-->
+    <div class="mainbox">
+        <div class="container">
+            <p id='txthit'>Welcome</p>
+            
+        </div>
+    </div>
+
+    <!--check availability-->
+    <div class="data_container">
+        <h1>Check Availability</h1>
+        <form action=" " method="POST">
+            <ul style="list-style-type: none;">
+                <li><label for="check in">check in： </label><input id="checkin" type="date" value="2021-06-01"></li>
+                <li><label for="check out">check out： </label><input id="checkout" type="date" value="2021-06-02"></li>
+                <li><label for="number of adults">Adults： </label>
+                    <select name="">
+                        <option value="">1 </option>
+                        <option value="">2 </option>
+                        <option value="">3 </option>
+                        <option value="">4 </option>
+                    </select>
+                </li>
+                <li><label for="number of children">Children：</label>
+                    <select name="">
+                        <option value="">0 </option>
+                        <option value="">1 </option>
+                        <option value="">2 </option>
+                        <option value="">3 </option>
+                        <option value="">4 </option>
+                    </select>
+                </li>
+                <li>
+                    <div class="submit">
+                        <input type="button" onclick="location.href=('./room.html')"
+                            value="Check Availability"></input>
+                    </div>
+                </li>
+
+            </ul>
+        </form>
+    </div>
+
+    <!--activity-->
+    <div class="activity_header">
+        <h2>Activities</h2>
+    </div>
+    <div class="select_container">
+        <div class="select_maindiv">
+            <ul>
+                <li>
+                    <div class="img"><img src="./images/bet.jpg" alt="bet"></div>
+                    <div class="select_intro">
+                        <h1>Bet</h1>
+                        <h2>Betting on which companies will fail first</h2>
+                        <input type="button" onclick="location.href=('./activity_bet.html')"
+                            value="Start"></input>
+                    </div>
+                </li>
+                <li>
+                    <div class="img"><img src="./images/chat.jpg" alt="chat"></div>
+                    <div class="select_intro">
+                        <h1>Chat</h1>
+                        <h2>You can chat with the financial elite</h2>
+                        <input type="button" onclick="location.href=('./experts.html')"
+                            value="Start"></input>
+                    </div>
+                </li>
+                <li>
+                    <div class="img"><img src="./images/game.jpg" alt="simulation"></div>
+                    <div class="select_intro">
+                        <h1>Game</h1>
+                        <h2>A game that simulates running a company</h2>
+                        <input type="button" onclick="location.href=('./activity_game.html')"
+                            value="Start"></input>
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+    </div>
+    <!--footer-->
+    <div class="footer">
+        <div class="contact">
+            <h1>Contact us</h1>
+            <li>23 Wall St, Manhattan, New York</li>
+            <li>(61)0411841234</li>
+            <li>WallStreetResort@gmail.com</li>
+        </div>
+        <div class="opening">
+            <h1>Opening hours</h1>
+            <li>Monday-Thursday &nbsp&nbsp&nbsp&nbsp&nbsp CLOSED </li>
+            <li>Friday &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp 9:00am-Midnight </li>
+            <li>Saturday &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Whole day </li>
+            <li>Sunday &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Midnight-6pm </li>
+        </div>
+    </div>
+    <!--script-->
+    <script src="js/txt_hit.js"></script>
+</body>
+
+</html>
